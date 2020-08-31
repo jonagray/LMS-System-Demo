@@ -198,7 +198,6 @@ const TeacherLesson = props => {
               </Fragment>
             )}
 
-
             <div className="form-group">
               <label>
                 <strong>Status:</strong>
@@ -219,10 +218,8 @@ const TeacherLesson = props => {
               </label>
               {currentLesson.hideQuestions ? "Hidden" : "Viewable"}
             </div>
-
-
           </form>
-
+          
           {currentLesson.published ? (
             <button
               className="badge badge-primary mr-2"

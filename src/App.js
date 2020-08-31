@@ -136,38 +136,37 @@ const App = () => {
 
 export default App;
 
-// function App() {
-//   return (
-//     <Router>
-//       <div>
-//         <nav className="navbar navbar-expand navbar-dark bg-dark">
-//           <a href="/lessons" className="navbar-brand">
-//             ArchieMD
-//           </a>
-//           <div className="navbar-nav mr-auto">
-//             <li className="nav-item">
-//               <Link to={"/lessons"} className="nav-link">
-//                 Lessons
-//               </Link>
-//             </li>
-//             <li className="nav-item">
-//               <Link to={"/add"} className="nav-link">
-//                 Add
-//               </Link>
-//             </li>
-//           </div>
-//         </nav>
+// Corpse code to save for optional new routes
+  // function App() {
+  //   return (
+  //     <Router>
+  //       <div>
+  //         <nav className="navbar navbar-expand navbar-dark bg-dark">
+  //           <a href="/lessons" className="navbar-brand">
+  //             ArchieMD
+  //           </a>
+  //           <div className="navbar-nav mr-auto">
+  //             <li className="nav-item">
+  //               <Link to={"/lessons"} className="nav-link">
+  //                 Lessons
+  //               </Link>
+  //             </li>
+  //             <li className="nav-item">
+  //               <Link to={"/add"} className="nav-link">
+  //                 Add
+  //               </Link>
+  //             </li>
+  //           </div>
+  //         </nav>
 
-//         <div className="container mt-3">
-//           <Switch>
-//             <Route exact path={["/", "/lessons"]} component={LessonsList} />
-//             <Route exact path="/add" component={AddLesson} />
-//             <Route path="/lessons/:id" component={Lesson} />
-//           </Switch>
-//         </div>
-//       </div>
-//     </Router>
-//   );
-// }
-
-// export default App;
+  //         <div className="container mt-3">
+  //           <Switch>
+  //             <Route exact path={["/", "/lessons"]} component={LessonsList} />
+  //             <Route exact path="/add" component={AddLesson} />
+  //             <Route path="/lessons/:id" component={Lesson} />
+  //           </Switch>
+  //         </div>
+  //       </div>
+  //     </Router>
+  //   );
+  // }

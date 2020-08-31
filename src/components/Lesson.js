@@ -105,48 +105,13 @@ const Lesson = props => {
                 </Test>
               </Fragment>
             )}
-
-            {/* <div className="form-group">
-              <label>
-                <strong>Status:</strong>
-              </label>
-              {currentLesson.published ? "Published" : "Pending"}
-            </div> */}
           </form>
-
-          {/* {currentLesson.published ? (
-            // <button
-            //   className="badge badge-primary mr-2"
-            //   onClick={() => updatePublished(false)}
-            // >
-            //   UnPublish
-            // </button>
-          ) : (
-            // <button
-            //   className="badge badge-primary mr-2"
-            //   onClick={() => updatePublished(true)}
-            // >
-            //   Publish
-            // </button>
-          )} */}
-
-          {/* <button className="badge badge-danger mr-2" onClick={deleteLesson}>
-            Delete
-          </button> */}
-
-          {/* <button
-            type="submit"
-            className="badge badge-success"
-            onClick={updateLesson}
-          >
-            Update
-          </button> */}
           <p>{message}</p>
         </div>
       ) : (
           <div>
             <br />
-            <p>Please click on a lesson...</p>
+            <p>Please click on a lesson.</p>
           </div>
         )}
     </div>

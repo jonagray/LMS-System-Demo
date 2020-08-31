@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import LessonDataService from "../services/LessonService";
 import { Link } from "react-router-dom";
-import { Test, QuestionGroup, Question, Option } from 'react-multiple-choice';
-
 
 const LessonsList = () => {
   const [lessons, setLessons] = useState([]);
